@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1057568441477-3u4v3gkuesvv8jibckaburgsplh6gjh7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1057568441477-3u4v3gkuesvv8jibckaburgsplh6gjh7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCj_mVaS6zhMw7tnsx0WkKUjnoJ_yuMBs8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1057568441477</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ugocode.blogApp1</string>
+	<key>PROJECT_ID</key>
+	<string>bloggingapp-3719d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bloggingapp-3719d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1057568441477:ios:d7a4d4c3cc434a4fe5d5ec</string>
+	<key>DATABASE_URL</key>
+	<string>https://bloggingapp-3719d.firebaseio.com</string>
+</dict>
+</plist>
