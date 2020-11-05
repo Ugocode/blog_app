@@ -1,3 +1,4 @@
+import 'package:blog_app1/Screen/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -8,43 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-        visualDensity: VisualDensity.adaptivePlatformDensity,
-      ),
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Blog',
+      theme: ThemeData.dark(),
       home: MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Blogs'),
-      ),
-      body: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Container(
-              color: Colors.amber,
-              height: MediaQuery.of(context).size.height / 5,
-              width: MediaQuery.of(context).size.width,
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Container(
-              color: Colors.amber,
-              height: MediaQuery.of(context).size.height / 5,
-              width: MediaQuery.of(context).size.width,
-            ),
-          ),
-        ],
-      ),
     );
   }
 }
