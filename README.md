@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-Writing Blogs for the world
+Writing Blogs for the world.
 
 ## Getting Started
 
